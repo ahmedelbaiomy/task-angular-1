@@ -1,0 +1,32 @@
+.form-label{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+form{
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(200px);
+    filter: blur();
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+.submitBtn{
+  display: flex;
+  justify-content: center;
+}
+button {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+
+  padding: 0.7rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+

@@ -1,0 +1,25 @@
+.price{
+  font-weight: bold;
+  color: white;
+  // font-style: italic;
+}
+.card{
+  margin-bottom: 1.5rem;
+  padding: 5px;
+  background-color: #eee;
+  // background-color: white;
+
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+
+}
+.card-img-top{
+  height: 200px;
+}
+.card-title{
+  font-size: 17px;
+  margin-bottom: 0 !important;
+}
+.card-text{
+  font-size: 12px;
+  margin-bottom: 0 !important;
+}

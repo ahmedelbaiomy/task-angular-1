@@ -1,0 +1,22 @@
+<form class="create-form">
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Product Name</label>
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="ex: iphone 15 pro" [(ngModel)]="name" name="name">
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Product Description</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" [(ngModel)]="description" name="description"></textarea>
+  </div>
+  <div class="mb-3">
+    <label for="exampleFormControlInput1" class="form-label">Product Price</label>
+    <input type="number" class="form-control" id="exampleFormControlInput1" [(ngModel)]="price" name="price">
+  </div>
+  <div class="mb-3">
+    <label for="formFile" class="form-label">Product Image</label>
+    <input class="form-control" type="file" id="formFile" (change)="onFileSelected($event)" name="image">
+  </div>
+  <div class="submitBtn">
+    <button type="submit" class="btn" [disabled]="!name || !description || !image || !price" (click)="addProduct()">🔥 create</button>
+  </div>
+
+</form>
